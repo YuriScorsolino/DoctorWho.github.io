@@ -1,0 +1,102 @@
+#foo {
+    -webkit-animation: fadein 2s ease-in alternate infinite;
+    -moz-animation: fadein 2s ease-in alternate infinite;
+    animation: fadein 2s ease-in alternate infinite;
+    position: absolute;
+    top: 10%;
+    width:50px;
+    height:50px;
+    left:0;
+}
+
+@-webkit-keyframes fadein {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes fadein {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#to{
+    margin-top:50px;
+    position: absolute;
+}
+
+#bot{
+    top:70px;
+    position:absolute;
+    width:40px;
+}
+
+#bot1{
+    top:120px;
+    position:absolute;
+    width:40px;
+}
+
+#bot2{
+    top:170px;
+    position:absolute;
+    width:40px;
+}
+
+#bot3{
+    top:220px;
+    position:absolute;
+    width:40px;
+}
+
+#bot4{
+    top:270px;
+    position:absolute;
+    width:40px;
+}
+#bot5{
+    top:320px;
+    position:absolute;
+    width:40px;
+}
+#bot6{
+    top:370px;
+    position:absolute;
+    width:40px;
+}
+#bot7{
+    top:420px;
+    position:absolute;
+    width:40px;
+}
+#bot8{
+    top:470px;
+    position:absolute;
+    width:40px;
+}
+#bot9{
+    top:520px;
+    position:absolute;
+    width:40px;
+}
+#bot10{
+    top:570px;
+    position:absolute;
+    width:40px;
+}
+#bot11{
+    top:620px;
+    position:absolute;
+    width:40px;
+}
+
+#bot12{
+    top:70px;
+    position:absolute;
+    width:40px;
+    left: 45px;
+}

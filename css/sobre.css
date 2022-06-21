@@ -1,0 +1,66 @@
+@-webkit-keyframes fadein {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes fadein {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#foo {
+    -webkit-animation: fadein 2s ease-in alternate infinite;
+    -moz-animation: fadein 2s ease-in alternate infinite;
+    animation: fadein 2s ease-in alternate infinite;
+    position: absolute;
+    top: 10%;
+    width:50px;
+    height:50px;
+    left:0;
+}
+
+#fo {
+    -webkit-animation: fadein 1s ease-in alternate infinite;
+    -moz-animation: fadein 1s ease-in alternate infinite;
+    animation: fadein 1s ease-in alternate infinite;
+    animation-iteration-count: 19;
+    margin-top: 3%;
+    width:400px;
+    height:600px;
+    margin-left:90px;
+}
+
+@media (max-width: 360px){
+    #fo {
+        -webkit-animation: fadein 1s ease-in alternate infinite;
+        -moz-animation: fadein 1s ease-in alternate infinite;
+        animation: fadein 1s ease-in alternate infinite;
+        animation-iteration-count: 19;
+        margin-top: 50%;
+        width:200px;
+        height:500px;
+        margin-left:10px;
+    }
+}
+
+.navbar .navbar-nav .nav-link{ color: white;}
+body{background: white; font-family: sans-serif;}
+.intro{ color: white;}
+footer{color: white;}
+
+#sera{
+margin-top:55px;
+    
+}
+
+@media (max-width: 360px){
+    #sera{
+        width:360px;
+    } 
+    
+}
